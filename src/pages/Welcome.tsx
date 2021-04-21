@@ -1,14 +1,20 @@
 import React, {useState} from 'react';
 import { 
-    Dimensions, SafeAreaView, Text, Image, View, TouchableOpacity, TouchableOpacityBase, StyleSheet 
+    Dimensions, 
+    SafeAreaView, 
+    Text, 
+    Image, 
+    View, 
+    TouchableOpacity, 
+    TouchableOpacityBase, 
+    StyleSheet 
 } from 'react-native';
-import {
-    Feather
-} from '@expo/vector-icons'
+
+import { Feather } from '@expo/vector-icons';
 
 import wateringImg from '../assets/watering.png';
 import colors from '../styles/colors';
-import fonts from '../styles/fonts'
+import fonts from '../styles/fonts';
 
 export function Welcome(){
 
